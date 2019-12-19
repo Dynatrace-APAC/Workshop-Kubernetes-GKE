@@ -4,6 +4,12 @@ This repository contains labs for the Hands-On Kubernetes Session. We will be us
 
 For the purposes of the Hands-On, we will automate and make the steps seamless for the participants
 
+## Prerequisites
+
+* Dynatrace SaaS/Managed Account. Get your free SaaS trial [here](https://www.dynatrace.com/trial/).
+* Google Cloud account with access to GKE. Get your free trial access [here](https://cloud.google.com/free/).
+* Chrome Browser
+
 ## Contents
 
 [**Lab 1:** Setup your GKE Environment](/labs/lab1)
