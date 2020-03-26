@@ -14,9 +14,9 @@ For the purposes of the Hands-On, we will automate and make the steps seamless f
 
 [**Lab 1:** Setup your GKE Environment](/labs/lab1)
 
-[**Lab 2:** Install k8s OneAgent Operator](/labs/lab2)
+[**Lab 2:** Install K8S Integration](/labs/lab2)
 
-[**Lab 3:** Setup k8s Dashboard](/labs/lab3)
+[**Lab 3:** Setup k8s Operator](/labs/lab3)
 
 [**Lab 4:** k8s Labels & Annotations](/labs/lab4)
 
