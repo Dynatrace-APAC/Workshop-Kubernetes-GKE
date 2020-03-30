@@ -2,7 +2,15 @@
 
 As per the official instructions [here](https://www.dynatrace.com/support/help/technology-support/cloud-platforms/kubernetes/monitoring/connect-kubernetes-clusters-to-dynatrace/) for the Kubernetes integration, you will need to setup an Environment Activegate first.
 
-### 1. Create infrastructure and install Activegate
+### 1.SSH into Dynatrace-Activegate terminal and install Activegate
+
+
+1. Click on the SSH button and login to terminal
+2. Within Dynatrace, click on Deploy Dynatrace on the left menu
+3. Click on "Install Activegate" at the bottom of the page
+4. Click on "Linux"
+5. Copy Step 2 and paste into your terminal.
+6. Copy Step 4 and append "sudo" (acting as root command) onto terminal
 
 ``` bash
 ./k8s-workshop/setup-activegate.sh
