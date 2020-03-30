@@ -2,7 +2,7 @@
 
 kubectl create namespace dynatrace
 
-kubectl apply -f https://github.com/Dynatrace-APAC/Workshop-Kubernetes/kubernetes-monitoring-service-account.yaml
+kubectl apply -f https://github.com/Dynatrace-APAC/Workshop-Kubernetes/blob/master/kubernetes-monitoring-service-account.yaml
 
 printf "Your k8s API URL\n"
 url=$(kubectl config view --minify -o jsonpath='{.clusters[0].cluster.server}')
