@@ -36,22 +36,13 @@ We will start setting up our GKE Cluster
 
 ![GKE-CLI](https://github.com/Nodnarboen/HOT-k8s/blob/master/assets/Picture5.png)
 
-For example for Australia Southeast, the command will be 
-
-```bash
-gcloud config set compute/zone australia-southeast1-a
-```
-
 Create your GKE cluster named <b>k8sworkshop</b> running Ubuntu in GKE with the following command.
 We will also be creating a compute VM for a Dynatrace Activegate. We will use the Dynatrace Activegate for Kubernetes integration.
 
 ```bash
-gcloud container clusters create k8sworkshop --image-type=ubuntu
+gcloud container clusters create k8sworkshop --image-type=ubuntu --zone australia-southeast1-a
 
-gcloud compute instances create dynatrace-activegate \
---image-family ubuntu-1604-lts \
---image-project ubuntu-os-cloud \
---zone australia-southeast1-a \
+gcloud compute instances create dynatrace-activegate --image-family ubuntu-1604-lts --image-project ubuntu-os-cloud --zone australia-southeast1-a 
 ```
 
 Once completed, you will have a running GKE Cluster!
