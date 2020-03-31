@@ -15,10 +15,8 @@ As per the official instructions [here](https://www.dynatrace.com/support/help/t
 3. Click on "Install Activegate" at the bottom of the page
 4. Click on "Linux"
 5. Copy Step 2 and paste into your terminal.
-![Copy-AG-Commands](https://github.com/Dynatrace-APAC/Workshop-Kubernetes/blob/master/assets/activegate-2.png)
-
 6. Copy Step 4 and append "sudo" (installing as root) onto terminal
-![Copy-AG-Commands](https://github.com/Dynatrace-APAC/Workshop-Kubernetes/blob/master/assets/activegate-3.png)
+![Copy-AG-Commands](https://github.com/Dynatrace-APAC/Workshop-Kubernetes/blob/master/assets/activegate-2.png)
 
 Once completed, you should see Activegate under Deployment Status.
 
