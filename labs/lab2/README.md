@@ -35,8 +35,10 @@ With the above results, enter the values to <b>Settings</b> -> <b>Cloud and Virt
 
 ![K8S-integration](https://github.com/Dynatrace-APAC/Workshop-Kubernetes/blob/master/assets/activegate-4.png)
 1. Give a name for the connection eg. GKE K8S
-2. Enter in your Kubernetes API URL Target
+2. Enter in your Kubernetes API URL Target 
+- Copy the Kubernetes API URL from the SSH terminal
 3. Enter in the Kubernetes Bearer Token
+- Copy the Bearer Token from the SSH terminal
 4. Disable "Require valid certificates for communication with API server"
 5. Add another event field selector
 6. User the below for the field selector name
