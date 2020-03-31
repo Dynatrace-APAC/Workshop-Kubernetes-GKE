@@ -6,13 +6,13 @@
 ![Activegate-connected](https://github.com/Dynatrace-APAC/Workshop-Kubernetes/blob/master/assets/operator.png)
 4. Click on Dynatrace OneAgent Operator and click on Configure
 ![Activegate-connected](https://github.com/Dynatrace-APAC/Workshop-Kubernetes/blob/master/assets/operator-1.png)
-5. Fill in the following fields
+5. Fill in the following fields<br>
 5a API URL <br>
-Copy your Dynatrace URL and append "/api" to the end
+Copy your Dynatrace URL and append "/api" to the end<br>
 5b API Token <br>
 Create one from Settings -> Integration -> Dynatrace API
 - Enable Access problem and event feed, metrics, and topology toggle
-- Enable Write Configuration toggle (needed for Activegate setup for the next step)
+- Enable Write Configuration toggle (needed for Activegate setup for the next step)<br>
 5c PaaS token <br>
 Create one from Settings -> Integration -> Platform as a Service
 ![Activegate-connected](https://github.com/Dynatrace-APAC/Workshop-Kubernetes/blob/master/assets/operator-2.png)
