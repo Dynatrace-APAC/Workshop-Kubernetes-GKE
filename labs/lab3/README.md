@@ -5,9 +5,9 @@
 3. Search for Dynatrace in the search field above
 3. Click on Dynatrace OneAgent Operator and click on Configure
 4. Fill in the following fields
-- API URL
+- API URL <br>
 Copy your Dynatrace URL and append "/api" to the end
-- API Token
+- API Token <br>
 Create one from Settings -> Integration -> Dynatrace API
 Enable Access problem and event feed, metrics, and topology toggle
 Enable Write Configuration toggle (needed for Activegate setup for the next step)
