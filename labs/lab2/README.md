@@ -11,7 +11,7 @@ As per the official instructions [here](https://www.dynatrace.com/support/help/t
 3. Click on "Install Activegate" at the bottom of the page
 4. Click on "Linux"
 5. Copy Step 2 and paste into your terminal.
-6. Copy Step 4 and append "sudo" (acting as root command) onto terminal
+6. Copy Step 4 and append "sudo" (installing as root) onto terminal
 
 Once completed, you should see Activegate under Deployment Status.
 
