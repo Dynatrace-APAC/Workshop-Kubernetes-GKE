@@ -33,6 +33,7 @@ chmod 777 setup-k8s-ui.sh
 ```
 With the above results, enter the values to <b>Settings</b> -> <b>Cloud and Virtualization</b> -> <b>Kubernetes</b>
 
+![K8S-integration](https://github.com/Dynatrace-APAC/Workshop-Kubernetes/blob/master/assets/activegate-4.png)
 1. Give a name for the connection eg. GKE K8S
 2. Enter in your Kubernetes API URL Target
 3. Enter in the Kubernetes Bearer Token
