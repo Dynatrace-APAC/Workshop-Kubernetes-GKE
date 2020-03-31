@@ -28,4 +28,17 @@ chmod 777 setup-k8s-ui.sh
 ```
 With the above results, enter the values to <b>Settings</b> -> <b>Cloud and Virtualization</b> -> <b>Kubernetes</b>
 
+1. Enter in your Kubernetes API URL Target
+2. Enter in the Kubernetes Bearer Token
+3. Disable "Require valid certificates for communication with API server"
+4. Add another event field selector
+5. User the below for the field selector name
+``` bash
+Non Node events 
+```
+6. User the below for the Field selector expression
+``` bash
+involvedObject.kind!=Node
+```
+
 :arrow_up: [Back to TOC](/README.md) :arrow_left: [Prev](../lab2/README.md)   :arrow_right: [Next](../lab4/README.md)  
