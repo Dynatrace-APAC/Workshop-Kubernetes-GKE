@@ -5,7 +5,7 @@ As per the official instructions [here](https://www.dynatrace.com/support/help/t
 ### 1. SSH into Dynatrace-Activegate terminal and install Activegate
 
 
-1. On the left navigation bar in Google Cloud, go to Kubernetes Engine -> VM instances
+1. On the left navigation bar in Google Cloud, go to <b>Compute Engine</b> -> <b>VM instances</b>
 ![Activegate-connected](https://github.com/Dynatrace-APAC/Workshop-Kubernetes/blob/master/assets/activegate-0.png)
 
 2. Click on the SSH button on the <b>dynatrace-activegate</b> row and SSH into the instance
