@@ -11,7 +11,7 @@ Copy your Dynatrace URL and append "/api" to the end
 Create one from Settings -> Integration -> Dynatrace API
 Enable Access problem and event feed, metrics, and topology toggle
 Enable Write Configuration toggle (needed for Activegate setup for the next step)
-- PaaS token
+- PaaS token <br>
 Create one from Settings -> Integration -> Platform as a Service
 5. Click on Deploy
 
