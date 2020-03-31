@@ -16,6 +16,6 @@ Create one from Settings -> Integration -> Dynatrace API
 Create one from Settings -> Integration -> Platform as a Service
 ![Activegate-connected](https://github.com/Dynatrace-APAC/Workshop-Kubernetes/blob/master/assets/operator-1.png)
 6. Click on Deploy<br>
-![Activegate-connected](https://github.com/Dynatrace-APAC/Workshop-Kubernetes/blob/master/assets/operator-2.png)
+![Activegate-connected](https://github.com/Dynatrace-APAC/Workshop-Kubernetes/blob/master/assets/operator-2.png)<br>
 :arrow_up: [Back to TOC](/README.md) :arrow_left: [Prev](../lab2/README.md)   :arrow_right: [Next](../lab4/README.md)  
 
