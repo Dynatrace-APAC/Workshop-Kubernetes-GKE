@@ -5,21 +5,21 @@ As per the official instructions [here](https://www.dynatrace.com/support/help/t
 ### 1.SSH into Dynatrace-Activegate terminal and install Activegate
 
 
-![Activegate-connected](https://github.com/Nodnarboen/HOT-k8s/blob/master/assets/activegate-0.png)
+![Activegate-connected](https://github.com/Nodnarboen/Workshop-Kubernetes/blob/master/assets/activegate-0.png)
 1. On the left navigation bar in Google Cloud, go to Kubernetes Engine -> VM instances
-![Activegate-connected](https://github.com/Nodnarboen/HOT-k8s/blob/master/assets/activegate.png)
+![Activegate-connected](https://github.com/Nodnarboen/Workshop-Kubernetes/blob/master/assets/activegate.png)
 2. Click on the SSH button on the dynatrace-activegate row and login to terminal
 2. Within Dynatrace, click on Deploy Dynatrace on the left menu
 3. Click on "Install Activegate" at the bottom of the page
 4. Click on "Linux"
-![Copy-AG-Commands](https://github.com/Nodnarboen/HOT-k8s/blob/master/assets/activegate-2.png)
+![Copy-AG-Commands](https://github.com/Nodnarboen/Workshop-Kubernetes/blob/master/assets/activegate-2.png)
 5. Copy Step 2 and paste into your terminal.
-![Copy-AG-Commands](https://github.com/Nodnarboen/HOT-k8s/blob/master/assets/activegate-3.png)
+![Copy-AG-Commands](https://github.com/Nodnarboen/Workshop-Kubernetes/blob/master/assets/activegate-3.png)
 6. Copy Step 4 and append "sudo" (installing as root) onto terminal
 
 Once completed, you should see Activegate under Deployment Status.
 
-![Activegate-connected](https://github.com/Nodnarboen/HOT-k8s/blob/master/assets/Picture9.1.png)
+![Activegate-connected](https://github.com/Nodnarboen/Workshop-Kubernetes/blob/master/assets/Picture9.1.png)
 
 ### 2. Setup the K8S Overview Dashboard
 
