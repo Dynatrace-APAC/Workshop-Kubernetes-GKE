@@ -5,10 +5,9 @@
 ![Activegate-connected](https://github.com/Dynatrace-APAC/Workshop-Kubernetes/blob/master/assets/operator.png)
 
 3. Search for Dynatrace in the search field above
-
-4. Click on Dynatrace OneAgent Operator and click on Configure
 ![Activegate-connected](https://github.com/Dynatrace-APAC/Workshop-Kubernetes/blob/master/assets/operator-1.png)
 
+4. Click on Dynatrace OneAgent Operator and click on Configure
 5. Fill in the following fields
 - API URL <br>
 Copy your Dynatrace URL and append "/api" to the end
