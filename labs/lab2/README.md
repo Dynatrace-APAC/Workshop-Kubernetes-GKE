@@ -5,7 +5,8 @@ As per the official instructions [here](https://www.dynatrace.com/support/help/t
 ### 1.SSH into Dynatrace-Activegate terminal and install Activegate
 
 
-1. Click on the SSH button and login to terminal
+1. On the left navigation bar in Google Cloud, go to Kubernetes Engine -> VM instances
+2. Click on the SSH button on the dynatrace-activegate row and login to terminal
 2. Within Dynatrace, click on Deploy Dynatrace on the left menu
 3. Click on "Install Activegate" at the bottom of the page
 4. Click on "Linux"
@@ -18,7 +19,7 @@ Once completed, you should see Activegate under Deployment Status.
 
 ### 2. Setup the K8S Overview Dashboard
 
-Automating the steps from our offical [documentation page](https://www.dynatrace.com/support/help/technology-support/cloud-platforms/kubernetes/installation-and-operation/further-integrations/connect-your-kubernetes-clusters-to-dynatrace/), we provided the API URL and bearer token automatically via API. 
+Automating the steps from our offical [documentation page](https://www.dynatrace.com/support/help/technology-support/cloud-platforms/kubernetes/installation-and-operation/further-integrations/connect-your-kubernetes-clusters-to-dynatrace/), we provided the API URL and bearer token automatically via API. Back in your Cloud Shell terminal, enter the below
 
 ``` bash
 wget https://github.com/Dynatrace-APAC/Workshop-Kubernetes/blob/master/setup-k8s-ui.sh
