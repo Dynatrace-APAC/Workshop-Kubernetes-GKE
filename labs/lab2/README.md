@@ -2,7 +2,7 @@
 
 As per the official instructions [here](https://www.dynatrace.com/support/help/technology-support/cloud-platforms/kubernetes/monitoring/connect-kubernetes-clusters-to-dynatrace/) for the Kubernetes integration, you will need to setup an Environment Activegate first.
 
-### 1.SSH into Dynatrace-Activegate terminal and install Activegate
+### 1. SSH into Dynatrace-Activegate terminal and install Activegate
 
 
 1. On the left navigation bar in Google Cloud, go to Kubernetes Engine -> VM instances
@@ -36,9 +36,9 @@ With the above results, enter the values to <b>Settings</b> -> <b>Cloud and Virt
 ![K8S-integration](https://github.com/Dynatrace-APAC/Workshop-Kubernetes/blob/master/assets/activegate-4.png)
 1. Give a name for the connection eg. GKE K8S
 2. Enter in your Kubernetes API URL Target 
-- Copy the Kubernetes API URL from the SSH terminal
+   - Copy the Kubernetes API URL from the SSH terminal
 3. Enter in the Kubernetes Bearer Token
-- Copy the Bearer Token from the SSH terminal
+   - Copy the Bearer Token from the SSH terminal
 4. Disable "Require valid certificates for communication with API server"
 5. Add another event field selector
 6. User the below for the field selector name
