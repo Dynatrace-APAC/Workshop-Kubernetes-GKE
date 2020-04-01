@@ -2,11 +2,10 @@
 
 For our Hands-On, you will need to run <a href="https://github.com/GoogleCloudPlatform/microservices-demo">Hipster Shop</a> which is a Google sample application.
 
-### 1. Run the Sample App sock-shop
+### 1. Run the Hipster Shop
 
 ```bash
-cd k8s-workshop
-./deploy-sockshop.sh
+wget -O- https://raw.githubusercontent.com/Dynatrace-APAC/Workshop-Kubernetes/master/deploy.sh | bash
 ```
 
 Once deployed, you can locate the front-end endpoint from GCP (<b>Kubernetes Engine -> Services & Ingress</b>)
