@@ -10,9 +10,11 @@ wget -O- https://raw.githubusercontent.com/Dynatrace-APAC/Workshop-Kubernetes/ma
 
 Once deployed, you can locate the front-end endpoint from GCP (<b>Kubernetes Engine -> Services & Ingress</b>)
 
-![JSON](https://github.com/Nodnarboen/k8s-workshop/blob/master/assets/Picture10.png)
+![JSON](https://github.com/Dynatrace-APAC/Workshop-Kubernetes/blob/master/assets/Picture10.png)
 
-Once running, you can go to Dynatrace to view the similar services. 
+Once running, you can go to the exposed frontend-external IP to go to Hipster Shop.
+
+![JSON](https://github.com/Dynatrace-APAC/Workshop-Kubernetes/blob/master/assets/hipstershop.png)
 
 :arrow_up: [Back to TOC](/README.md) :arrow_left: [Prev](../lab3/README.md)   :arrow_right: [Next](../lab5/README.md)  
 
