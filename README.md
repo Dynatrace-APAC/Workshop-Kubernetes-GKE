@@ -18,7 +18,7 @@ For the purposes of the Hands-On, we will automate and make the steps seamless f
 
 [**Lab 3:** Setup k8s Operator](/labs/lab3)
 
-[**Lab 4:** k8s Labels & Annotations](/labs/lab4)
+[**Lab 4:** Deploying Hipster Shop](/labs/lab4)
 
 [**Lab 5:** Container Environment Variables](/labs/lab5)  
 
