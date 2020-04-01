@@ -1,9 +1,9 @@
 apiVersion: v1
-kind: Namespace
+kind: namespace
 metadata:
   name: dev
 ---
 apiVersion: v1
-kind: Namespace
+kind: namespace
 metadata:
   name: production
