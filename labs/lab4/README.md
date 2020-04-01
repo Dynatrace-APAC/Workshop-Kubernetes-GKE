@@ -1,6 +1,6 @@
-# Kubernetes Labels & Annotations
+# Setting up Hipster Shop
 
-For our Hands-On, you will need to run the sample application sock-shop
+For our Hands-On, you will need to run <a href="https://github.com/GoogleCloudPlatform/microservices-demo">Hipster Shop</a> which is a Google sample application.
 
 ### 1. Run the Sample App sock-shop
 
