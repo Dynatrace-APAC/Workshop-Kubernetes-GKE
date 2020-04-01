@@ -20,5 +20,7 @@ Create one from Settings -> Integration -> Platform as a Service
 
 Once completed, you can click on Hosts on the left panel to see your connected K8S nodes. 
 
+![GKE-Hosts](https://github.com/Dynatrace-APAC/Workshop-Kubernetes/blob/master/assets/Picture7.1.png)
+
 :arrow_up: [Back to TOC](/README.md) :arrow_left: [Prev](../lab2/README.md)   :arrow_right: [Next](../lab4/README.md)  
 
