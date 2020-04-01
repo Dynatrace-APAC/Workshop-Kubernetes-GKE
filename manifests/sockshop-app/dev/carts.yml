@@ -46,7 +46,7 @@ spec:
         readinessProbe:
           httpGet:
             path: /health
-            port: 8080
+            port: 80
           initialDelaySeconds: 120
           periodSeconds: 10
           timeoutSeconds: 15
