@@ -51,6 +51,8 @@ involvedObject.kind!=Node
 ```
 8. Save and Click on Connect
 
-Once successfully connected, click on Kubernetes on the left menu and explore the Kubernetes UI.
+Once successfully connected, click on Kubernetes on the left menu and explore the Kubernetes UI. 
+
+![K8S-integration](https://github.com/Dynatrace-APAC/Workshop-Kubernetes/blob/master/assets/k8s.png)
 
 :arrow_up: [Back to TOC](/README.md) :arrow_left: [Prev](../lab1/README.md)   :arrow_right: [Next](../lab3/README.md)  
