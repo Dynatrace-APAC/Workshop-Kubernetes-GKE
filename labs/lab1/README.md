@@ -41,8 +41,7 @@ We will also be creating a compute VM for a Dynatrace Activegate. We will use th
 
 ```bash
 gcloud container clusters create k8sworkshop --image-type=ubuntu --zone australia-southeast1-a
-
-gcloud compute instances create dynatrace-activegate --image-family ubuntu-1604-lts --image-project ubuntu-os-cloud --zone australia-southeast1-a 
+gcloud compute instances create dynatrace-activegate --image-family ubuntu-1604-lts --image-project ubuntu-os-cloud --zone australia-southeast1-a
 ```
 
 Once completed, you will have a running GKE Cluster!
