@@ -22,7 +22,7 @@ For the purposes of the Hands-On, we will automate and make the steps seamless f
 
 [**Lab 5:** Exploring Dynatrace](/labs/lab5)  
 
-[**Lab 6:** Process Group Naming & Service Naming for k8s](/labs/lab6)
+[**Lab 6:** Exploring Kubernetes View](/labs/lab6)
 
 [**Lab 7:** Process Detection for Canary Deployments](/labs/lab7)
 
