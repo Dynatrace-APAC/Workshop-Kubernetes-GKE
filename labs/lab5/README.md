@@ -1,27 +1,12 @@
-# Container Environment Variables
+# Exploring Dynatrace
 
-### 1. Adding Environment variables
+### 1. Automatic discovery of services
 
-Add some Environment Variables to the /k8s-workshop/manifests/sockshop-app/production/front-end.yml
+In Dynatrace, go to Transactions and Services to see the automatic discovered treasures.
 
-Make sure that the indentation is correct and that they aren't any error promptings
+You will realized that some services are discovered but some might not match <a href="https://github.com/GoogleCloudPlatform/microservices-demo#service-architecture">Hipster Shop's ervice architecture</a>.
 
-```bash
-        env:
-        - name: DT_TAGS
-          value: "product=sockshop"
-        - name: DT_CUSTOM_PROP
-          value: "SERVICE_TYPE=FRONTEND"
-```
-
-![JSON](https://github.com/Nodnarboen/k8s-workshop/blob/master/assets/Picture13.png)
-
-After saving, you will need to re-apply the change.
-
-```bash
-kubectl apply -f ~/k8s-workshop/manifests/sockshop-app/production/front-end.yml
-./recycle-sockshop-frontend.sh
-```
+![JSON](https://github.com/Dynatrace-APAC/Workshop-Kubernetes/blob/master/assets/architecture-diagram.png)
 
 ### 2. Validate
 
