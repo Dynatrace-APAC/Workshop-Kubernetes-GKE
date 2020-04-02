@@ -43,11 +43,11 @@ With the above results, enter the values to <b>Settings</b> -> <b>Cloud and Virt
 5. Add another event field selector
 6. User the below for the field selector name
 ``` bash
-Non Node events 
+Hipster shop - Warning events
 ```
 7. User the below for the Field selector expression
 ``` bash
-involvedObject.kind!=Node
+involvedObject.namespace=hipster-shop,type=Warning
 ```
 8. Save and Click on Connect
 
