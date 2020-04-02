@@ -15,9 +15,14 @@ Explore the various functionalities within the Kubernetes View such as Cluster U
 
 ![KubernetesUI](https://github.com/Dynatrace-APAC/Workshop-Kubernetes/blob/master/assets/cluster-workload.png)
 
-2. Analyze the Kubernetes Events
+3. Analyze the Kubernetes Events
    -  Notice the different types of events BackOff, Unhealthy
 
 ![KubernetesUI](https://github.com/Dynatrace-APAC/Workshop-Kubernetes/blob/master/assets/events.png)
+
+4. Analyze the Kubernetes Namespace
+   -  Click on Hipster-shop and drill down into various kubernetes services (Cloud applications)
+
+![KubernetesUI](https://github.com/Dynatrace-APAC/Workshop-Kubernetes/blob/master/assets/namespace.png)
 
 :arrow_up: [Back to TOC](/README.md) :arrow_left: [Prev](../lab5/README.md)   :arrow_right: [Next](../lab7/README.md)  
