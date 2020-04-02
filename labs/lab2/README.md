@@ -41,11 +41,11 @@ With the above results, enter the values to <b>Settings</b> -> <b>Cloud and Virt
 5. Add another event field selector
 6. User the below for the field selector name
 ``` bash
-Hipster shop - Warning events
+Hipster shop 
 ```
 7. User the below for the Field selector expression
 ``` bash
-involvedObject.namespace=hipster-shop,type=Warning
+metadata.namespace=hipster-shop
 ```
 8. Save and Click on Connect
 
