@@ -1,6 +1,6 @@
 # Exploring Dynatrace
 
-### 1. Automatic discovery of services
+### 1. Automatic Discovery of services
 
 In Dynatrace, go to Transactions and Services to see the automatic discovered treasures.
 
