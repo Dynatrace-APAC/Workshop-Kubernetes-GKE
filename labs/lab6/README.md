@@ -21,7 +21,7 @@ Explore the various functionalities within the Kubernetes View such as Cluster U
 ![KubernetesUI](https://github.com/Dynatrace-APAC/Workshop-Kubernetes/blob/master/assets/events.png)
 
 4. Analyze the Kubernetes Namespace
-   -  Click on Hipster-shop and drill down into various kubernetes services (Cloud applications)
+   -  Click on <b>hipster-shop</b> and drill down into various kubernetes services (Cloud applications)
 
 ![KubernetesUI](https://github.com/Dynatrace-APAC/Workshop-Kubernetes/blob/master/assets/namespace.png)
 
