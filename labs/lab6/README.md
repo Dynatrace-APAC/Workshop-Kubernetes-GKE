@@ -16,7 +16,7 @@ Explore the various functionalities within the Kubernetes View such as Cluster U
 ![KubernetesUI](https://github.com/Dynatrace-APAC/Workshop-Kubernetes/blob/master/assets/cluster-workload.png)
 
 2. Analyze the Kubernetes Events
-   -  Notice the Workloads and Pods running spilt between Kubernetes controllers
+   -  Notice the different types of events BackOff, Unhealthy
 
 ![KubernetesUI](https://github.com/Dynatrace-APAC/Workshop-Kubernetes/blob/master/assets/events.png)
 
