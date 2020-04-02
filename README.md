@@ -24,6 +24,6 @@ For the purposes of the Hands-On, we will automate and make the steps seamless f
 
 [**Lab 6:** Exploring Kubernetes View](/labs/lab6)
 
-[**Lab 7:** Process Detection for Canary Deployments](/labs/lab7)
+[**Lab 7:** Exploring Kubernetes Cloud Applications](/labs/lab7)
 
 To delete the entire hands-on, proceed to delete your GCP project based on instructions [here](https://cloud.google.com/go/getting-started/delete-tutorial-resources)
