@@ -4,7 +4,7 @@
 
 In Dynatrace, go to Transactions and Services to see the automatic discovered treasures.
 
-You will realized that some services are discovered but some might not match <a href="https://github.com/GoogleCloudPlatform/microservices-demo#service-architecture">Hipster Shop's ervice architecture</a>.
+You will realized that some services are discovered but some might not match <a href="https://github.com/GoogleCloudPlatform/microservices-demo#service-architecture">Hipster Shop's Service architecture</a>.
 
 ![JSON](https://github.com/Dynatrace-APAC/Workshop-Kubernetes/blob/master/assets/architecture-diagram.png)
 
