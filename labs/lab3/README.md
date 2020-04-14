@@ -7,7 +7,7 @@
 4. Click on Dynatrace OneAgent Operator and click on Configure
 5. Fill in the following fields<br>
 - API URL <br>
-Copy your Dynatrace URL and append "/api" to the end<br>
+Copy your Dynatrace URL and append <b>"/api"</b> to the end<br>
 ![API-URL](https://github.com/Dynatrace-APAC/Workshop-Kubernetes/blob/master/assets/operator-1-withURL.png)
 
 - API Token <br>
