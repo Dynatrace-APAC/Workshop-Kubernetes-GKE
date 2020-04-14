@@ -15,7 +15,14 @@ Because of the rapid rate of change coming to OneAgent, features that are in Ear
 This is to prevent unforseen circumstances which might impact your production environments. For the purposes of workshop, we can enable these features. Go to <b>Settings -> Service-side service monitoring -> Deep Monitoring -> New Oneagent Features</b>
 
 Under Global Settings, enable the following GRPC feature flags. They are on different pages so you would need to toggle through the pages.
+
+You can use the search filter bar to search for "GRPC"
+![GRPC-Features](https://github.com/Dynatrace-APAC/Workshop-Kubernetes/blob/master/assets/lab5-b4EnableGRPC-settings.png )
+
 ![Features](https://github.com/Dynatrace-APAC/Workshop-Kubernetes/blob/master/assets/features.png)
+
+Make sure all the below features all enabled.
+![All-Features](https://github.com/Dynatrace-APAC/Workshop-Kubernetes/blob/master/assets/all-features.png)
 
 Enabling OneAgents features requires a restart of the pods. Run the following command to restart the pods.
 
