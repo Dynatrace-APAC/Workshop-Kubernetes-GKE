@@ -14,9 +14,9 @@ Hipster Shop uses cutting edge technologies (such as GPRC) which Dynatrace suppo
 Because of the rapid rate of change coming to OneAgent, features that are in Early Access aren't automatically enabled by default. 
 This is to prevent unforseen circumstances which might impact your production environments. For the purposes of workshop, we can enable these features. Go to <b>Settings -> Service-side service monitoring -> Deep Monitoring -> New Oneagent Features</b>
 
-Under Global Settings, enable the following GRPC feature flags. They are on different pages so you would need to toggle through the pages.
+Under Global Settings, enable the following feature flags. They are on different pages so you would need to toggle through the pages.
 
-You can use the search filter bar to search for "GRPC"
+You can use the search filter bar to search for <b>"GRPC"</b>
 ![GRPC-Features](https://github.com/Dynatrace-APAC/Workshop-Kubernetes/blob/master/assets/lab5-b4EnableGRPC-settings.png )
 
 ![Features](https://github.com/Dynatrace-APAC/Workshop-Kubernetes/blob/master/assets/features.png)
