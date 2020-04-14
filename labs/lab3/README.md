@@ -26,7 +26,7 @@ Copy the values into your GCP console
 6. Click on Deploy<br>
 ![Activegate-connected](https://github.com/Dynatrace-APAC/Workshop-Kubernetes/blob/master/assets/operator-2.png)<br>
 
-Once completed, you can click on Hosts on the left panel to see your connected K8S nodes ( 3 worker nodes)  
+Once completed, you can click on Hosts on the left panel to see your connected K8S nodes (3 nodes)  
 
 ![GKE-Hosts](https://github.com/Dynatrace-APAC/Workshop-Kubernetes/blob/master/assets/Picture7.1.png)
 
