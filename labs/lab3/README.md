@@ -10,10 +10,10 @@
 ![API-URL](https://github.com/Dynatrace-APAC/Workshop-Kubernetes/blob/master/assets/operator-1-withURL.png)
 Copy your Dynatrace URL and append "/api" to the end<br>
 - API Token <br>
-![API-Token](https://github.com/Dynatrace-APAC/Workshop-Kubernetes/blob/master/assets/api-token.png)
 Create one from Settings -> Integration -> Dynatrace API
   - Enable Access problem and event feed, metrics, and topology toggle
   - Enable Write Configuration toggle (needed for Activegate setup for the next step)<br>
+![API-Token](https://github.com/Dynatrace-APAC/Workshop-Kubernetes/blob/master/assets/api-token.png)
 - PaaS token <br>
 ![PaaS-Token](https://github.com/Dynatrace-APAC/Workshop-Kubernetes/blob/master/assets/paas-token.png)
 Create one from Settings -> Integration -> Platform as a Service
