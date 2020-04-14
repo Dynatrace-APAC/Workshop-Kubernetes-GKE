@@ -2,7 +2,8 @@
 
 ### 1. Automatic Discovery of services
 
-In Dynatrace, go to Transactions and Services to see the automatic discovered treasures.
+In Dynatrace, go to Transactions and Services to see the automatic 5 discovered services.
+![Discovered Services](https://github.com/Dynatrace-APAC/Workshop-Kubernetes/blob/master/assets/lab5-autodiscoveredservices.png)
 
 You will realized that some services are discovered but some might not match <a href="https://github.com/GoogleCloudPlatform/microservices-demo#service-architecture">Hipster Shop's Service architecture</a>.
 Hipster Shop uses cutting edge technologies (such as GPRC) which Dynatrace supports with the constant evolution in the cloud.
@@ -32,7 +33,7 @@ kubectl delete pods --all -n hipster-shop
 ![Restart](https://github.com/Dynatrace-APAC/Workshop-Kubernetes/blob/master/assets/restart.png)
 
 Back in Dynatrace, go to and Transactions and Services to see the updated list of services.
-![Discovered Services](https://github.com/Dynatrace-APAC/Workshop-Kubernetes/blob/master/assets/lab5-autodiscoveredservices.png)
+![Discovered Services](https://github.com/Dynatrace-APAC/Workshop-Kubernetes/blob/master/assets/lab5-AfterEnableGRPC-settings.png)
 
 Clicking on Go Service ":8080" followed by Service Flow, you can see that the service are automatically detected and matches the architecture diagram above.
 
