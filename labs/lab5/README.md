@@ -22,7 +22,7 @@ You can use the search filter bar to search for <b>"GRPC"</b>
 
 ![Features](https://github.com/Dynatrace-APAC/Workshop-Kubernetes/blob/master/assets/features.png)
 
-Make sure all the below features all enabled.
+Make sure all the below features all enabled, including the 2 additional NodeJS feature flags.
 ![All-Features](https://github.com/Dynatrace-APAC/Workshop-Kubernetes/blob/master/assets/all-features.png)
 
 Enabling OneAgents features requires a restart of the pods. Run the following command to restart the pods.
