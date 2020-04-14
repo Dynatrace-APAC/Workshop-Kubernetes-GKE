@@ -25,6 +25,7 @@ kubectl delete pods --all -n hipster-shop
 ![Restart](https://github.com/Dynatrace-APAC/Workshop-Kubernetes/blob/master/assets/restart.png)
 
 Back in Dynatrace, go to and Transactions and Services to see the updated list of services.
+![Discovered Services](https://github.com/Dynatrace-APAC/Workshop-Kubernetes/blob/master/assets/lab5-autodiscoveredservices.png)
 
 Clicking on Go Service ":8080" followed by Service Flow, you can see that the service are automatically detected and matches the architecture diagram above.
 
