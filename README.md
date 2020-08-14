@@ -1,4 +1,4 @@
-# Kubernetes (K8S) with Dynatrace
+# Kubernetes (K8S) with Dynatrace with GKE
 
 This repository contains labs for the Hands-On Kubernetes Session. We will be using Google Kubernetes Engine (GKE) for this hands-on but this will work on other platforms as well. 
 
